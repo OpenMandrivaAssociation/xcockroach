@@ -40,5 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_datadir}/%{name}/themes/
 %{_datadir}/%{name}/themes/*
 %{_bindir}/%{name}
-%{_mandir}/man6/%{name}.6.bz2
+%{_mandir}/man6/%{name}.6*
 
