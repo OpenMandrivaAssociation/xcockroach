@@ -35,9 +35,7 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_libdir}/%{name}/
 %dir %{_libdir}/%{name}/behaviors/
 %{_libdir}/%{name}/behaviors/*
-%dir %{_datadir}/%{name}/
-%dir %{_datadir}/%{name}/themes/
-%{_datadir}/%{name}/themes/*
+%{_datadir}/%{name}/
 %{_bindir}/%{name}
 %{_mandir}/man6/%{name}.6*
 
