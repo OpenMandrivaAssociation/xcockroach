@@ -32,9 +32,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %doc AUTHORS ChangeLog COPYING TODO
-%dir %{_libdir}/%{name}/
-%dir %{_libdir}/%{name}/behaviors/
-%{_libdir}/%{name}/behaviors/*
 %{_datadir}/%{name}/
 %{_bindir}/%{name}
 %{_mandir}/man6/%{name}.6*
