@@ -7,6 +7,7 @@ Patch0:		%{name}-%{version}.libdir.patch.bz2
 License:	GPL
 Group:		Toys
 Url:		http://xcockroach.free.fr/
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  X11-devel
 
 %description
