@@ -1,6 +1,6 @@
 Name:		xcockroach
 Version:        0.4
-Release:        %mkrel 6
+Release:        %mkrel 7
 Summary:	Displays cockroaches on your desktop
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		%{name}-%{version}.libdir.patch.bz2
