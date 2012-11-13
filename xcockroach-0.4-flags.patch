@@ -1,0 +1,25 @@
+--- src/Makefile.am.flags	2004-03-16 16:04:29.000000000 +0100
++++ src/Makefile.am	2011-02-01 19:39:21.000000000 +0100
+@@ -1,7 +1,7 @@
+ SUBDIRS = behaviors
+ 
+-CFLAGS = -Wall -W -O3 -DSYSTEM_DATA_PATH="\"$(pkgdatadir)\""
+-LDFLAGS = -s
++CFLAGS = @CFLAGS@ -fPIC -DSYSTEM_DATA_PATH="\"$(pkgdatadir)\""
++LDFLAGS = @LDFLAGS@ -s
+ 
+ XCOCKROACH_LIBS = @XCOCKROACH_LIBS@
+ LIBS = $(XCOCKROACH_LIBS)
+--- src/behaviors/Makefile.am.flags	2011-02-01 19:39:36.000000000 +0100
++++ src/behaviors/Makefile.am	2011-02-01 19:39:58.000000000 +0100
+@@ -7,8 +7,8 @@
+ #lib_LTLIBRARIES = libinsectoidal.la libmechanical.la liblibellule.la
+ 
+ LIBS = @PLUGINS_LIBS@
+-CFLAGS = -Wall -W -O3
+-LDFLAGS = -s
++CFLAGS = @CFLAGS@ -fPIC
++LDFLAGS = @LDFLAGS@ -s
+ 
+ #libinsectoidal_la_SOURCES = insectoidal.c
+ #libmechanical_la_SOURCES = mechanical.c
