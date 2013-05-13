@@ -1,6 +1,6 @@
 Name: xcockroach
 Version: 0.4
-Release: %mkrel 10
+Release: 11
 Summary: Displays cockroaches on your desktop
 License: GPL
 Group: Toys
@@ -9,7 +9,6 @@ Source0: %{name}-%{version}.tar.bz2
 Patch0: xcockroach-0.4-flags.patch
 BuildRequires: pkgconfig(x11)
 BuildRequires: pkgconfig(xpm)
-BuildRoot: %{_tmppath}/%{name}-%{version}
 
 %description
 xcockroach displays cockroaches on your root  window,
