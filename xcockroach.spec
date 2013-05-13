@@ -7,8 +7,8 @@ Group: Toys
 Url: http://xcockroach.free.fr/
 Source0: %{name}-%{version}.tar.bz2
 Patch0: xcockroach-0.4-flags.patch
-BuildRequires: libx11-devel
-BuildRequires: libxpm-devel
+BuildRequires: pkgconfig(x11)
+BuildRequires: pkgconfig(xpm)
 BuildRoot: %{_tmppath}/%{name}-%{version}
 
 %description
