@@ -1,6 +1,6 @@
 Name: xcockroach
 Version: 0.4
-Release: 11
+Release: 12
 Summary: Displays cockroaches on your desktop
 License: GPL
 Group: Toys
